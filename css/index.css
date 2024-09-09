@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은고딕";
+    color: #215355;
+}
+
+body {
+    display: grid;
+    place-items: center; /* 중앙 정렬 */
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+header {
+    float: left;
+    /* padding-right: 200px; */
+}
+
+#head{
+    width: 1900px;
+    height:80px;
+    background-color: rgb(217, 2, 2);
+}
+
+.top {
+    float: left;
+    height: 650px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    float: left;
+    height: 80px;
+    width: 100%;
+}
+
+.logo>a>img{
+    width: 200px;
+    height: 80px;
+    /* margin-right: 200px; */
+}
+.menu {
+    width: 180px;
+    top:100px;
+    text-align: center;
+}
+.navi>li{
+    float:left;
+    width:180;
+}
+.navi>li>a{
+    height:40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(193, 0, 0);
+    color: #ffffff;
+    font-size: large;
+    border: 1px solid white;
+}
+.navi>li>a:hover{
+    background-color: darkred;
+    color: #ffffff;
+}
+.submenu{
+    float: left;
+    width:100%;
+    display:none;
+}
+.submenu>li>a{
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color:black;
+    color:#ffffff;
+    /* border: 1px solid rgb(255, 2, 2); */
+}
+.submenu>li>a:hover{
+    background-color: #999999;
+    color: #ffffff;
+}
+.imgslide {
+    float: right;
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    margin-right: 200px;
+}
+
+.imgslide>a>img{
+    height: 660px;
+    width: 1200px;
+}
+.imgslide>a{
+    display:block;
+    position: absolute;
+    left:0;
+    top:0;
+    margin-top: 50px;
+}
+.imgtext{
+    height:70px;
+    width: 300px;
+    position: absolute;
+    margin: 200px 0 0 -150px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: rgba(40,40,40,0.3);
+    left:50%;
+    top:50%;
+}
+
+#contents1{
+    float: right;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    border-radius: 0.2cm;
+    margin-bottom: 150px;
+}
+
+#contents2>img{
+    height: 400px;
+    width: 100%;
+}
+.contents2 {
+    height: 740px;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(229, 229, 229);
+    border-radius: 0.2cm;
+}
+h3{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Driver{
+    margin-top: 2px;
+    width: 1000px;
+    height: 60px;
+    background-color: white;
+    border-radius: 0.2cm;
+}
+
+#Driver>#first-driver{
+    float: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0.2cm;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+
+#Driver>#RedBull{
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(65, 93, 255);
+}
+
+#Driver>#MacLaren{
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(255, 187, 0);
+}
+
+#Driver>#Mercedes{
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(0, 255, 242);
+}
+
+#Driver>#Ferrari{
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+}
+
+#Driver>#Aston-martin{
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    background-color: rgb(62, 162, 0);
+}
+
+#Driver>#driver-name{
+    float: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0.2cm;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+#Driver>#team-name{
+    float: left;
+    padding-top: 19px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+#Driver>#point{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 22px;
+    width: 100px;
+    background-color: rgb(227, 227, 227);
+    float: right;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    margin-top: 14px;
+    margin-right: 5px;
+    border-radius: 0.5cm;
+}
+
+#more{
+    width: 250px;
+    height: 22px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.2cm;
+    color: white;
+}
+
+footer {
+    float: right;
+}
+
+.bottom {
+    float: left;
+    height: 100px;
+    width: 800px;
+}
+
+.copy {
+    float: left;
+    height: 100px;
+    width: 600px;
+}
+
+.site {
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+
+.sns {
+    float: right;
+    height: 50px;
+    width: 200px;
+}
+
+.familysite {
+    float: right;
+    height: 50px;
+    width: 200px;
+}
